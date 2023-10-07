@@ -22,6 +22,7 @@ const userSchema = new Schema(
         },
         email: {
             type: String,
+            get: obfuscate,
             required: [true, 'Please provide email'],
             match: [
                 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/,
