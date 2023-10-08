@@ -36,4 +36,44 @@ const createUser = async (req, res) => {
 };
 
 // Put one user -> update using _id
+
+const updateUser = async (req, res) => {
+    try {
+        const userUpdate = await User.findOneAndUpdate(
+            { _id: req.params.userId },
+            { $set: req.body },
+            { runValidators: true, new: true }
+        );
+        res.status(200).json(userUpdate);
+    } catch (err) {
+        res.status(404).json({ msg: `No user found with this id`, err: err });
+    }
+};
+
 // Delete one user -> delete using _id
+
+const deleteUser = async (req, res) => {
+    try {
+        const userDelete = await User.findByIdAndDelete({ _id: req.params.userId });
+
+        const thoughtsDelete = await Thought.deleteMany({ _id: { $in: userDelete.thoughts },
+        });
+        res.status(200).json({
+            message: 'user and user thoughts deleted',
+            userDelete,
+            thoughtsDelete, 
+        });
+    } catch (err) {
+        res.status(404).json({ msg: `No users with the provided id: ${req.params.userId}` });
+    }
+};
+
+module.exports = {
+    
+    getAllUsers,
+    getOneUser,
+    createUser,
+    updateUser,
+    deleteUser
+
+};
