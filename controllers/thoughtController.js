@@ -67,9 +67,11 @@ const deleteThought = async (req, res) => {
   };
 
 module.exports = {
+
   getAllThoughts,
   getThought,
   createThought,
   deleteThought,
-  updateThought,
+  updateThought
+
 };

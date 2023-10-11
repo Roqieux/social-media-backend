@@ -1,4 +1,43 @@
-const { Schema, model } = require('mongoose');
+const { Schema, Types, model } = require('mongoose');
+const formatDate = require('../utils/helpers');
+
+const reactionSchema = new Schema(
+    {
+      reactionId: {
+        type: Schema.Types.ObjectId,
+        default: () => new Types.ObjectId(),
+      },
+      createdAt: {
+        type: Date,
+        default: Date.now,
+        get: (createdAt) =>
+          formatDate(
+            Intl.DateTimeFormat('en-US', {
+              month: 'short',
+              day: 'numeric',
+              year: 'numeric',
+              hour: 'numeric',
+              minute: 'numeric',
+            }).format(new Date(createdAt))
+          ),
+      },
+      reactionBody: {
+        type: String,
+        required: true,
+        maxlength: 280,
+      },
+      username: {
+        type: String,
+        required: true,
+      },
+    },
+    {
+      toJSON: {
+        getters: true,
+      },
+      id: false,
+    }
+  );
 
 const thoughtSchema = new Schema(
     {
@@ -17,7 +56,7 @@ const thoughtSchema = new Schema(
             default: Date.now(),
             get: (createdAt) => 
             formatDate(
-                Intl.DateTimeFormate('en-US', {
+                Intl.DateTimeFormat('en-US', {
                     month: 'short',
                     day: 'numeric',
                     year: 'numeric',
