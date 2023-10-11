@@ -50,15 +50,15 @@ The application will then be invoked by using the following command:
 
 ### User Routes
 
-[![User Routes Video](assets\vid1 png.png)](https://drive.google.com/file/d/1rO0HvJcc5WVSuBxB2y4mKFoNJf6BZrCK/view?usp=sharing)
+[![User Routes Video](./assets/vid1%20png.png)](https://drive.google.com/file/d/1rO0HvJcc5WVSuBxB2y4mKFoNJf6BZrCK/view?usp=sharing)
 
 ### Thought Routes 
 
-[![Thoughts Routes Video](assets\vid2 png.png)](https://drive.google.com/file/d/1QNCsR8wI76tcAUtMQJWXY_sTWhAtYLsO/view?usp=sharing)
+[![Thoughts Routes Video](./assets/vid2%20png.png)](https://drive.google.com/file/d/1QNCsR8wI76tcAUtMQJWXY_sTWhAtYLsO/view?usp=sharing)
 
 ### Reactions and Friends
 
-[![Reactions and Friends Routes Video](assets\vid3 png.png)](https://drive.google.com/file/d/1hJlqlqaRDVrqEZgvsIGLWxHREe0o9WCq/view?usp=sharing)
+[![Reactions and Friends Routes Video](./assets/vid3%20png.png)](https://drive.google.com/file/d/1hJlqlqaRDVrqEZgvsIGLWxHREe0o9WCq/view?usp=sharing)
 
 
 
