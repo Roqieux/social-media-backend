@@ -50,7 +50,7 @@ The application will then be invoked by using the following command:
 
 ### User Routes
 
-
+[![Video of User Routes]([https://drive.google.com/file/d/1Q0vKKx1Re6Ae_U4Kx0Z8n2j3PoNqkxvj/view)
 
 ### Thought Routes 
 
