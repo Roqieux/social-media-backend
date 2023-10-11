@@ -50,15 +50,15 @@ The application will then be invoked by using the following command:
 
 ### User Routes
 
-[![User Routes Video](https://drive.google.com/file/d/1Q0vKKx1Re6Ae_U4Kx0Z8n2j3PoNqkxvj/view)](https://drive.google.com/file/d/1rO0HvJcc5WVSuBxB2y4mKFoNJf6BZrCK/view?usp=sharing)
+[![User Routes Video](assets\vid1 png.png)](https://drive.google.com/file/d/1rO0HvJcc5WVSuBxB2y4mKFoNJf6BZrCK/view?usp=sharing)
 
 ### Thought Routes 
 
-[![Thoughts Routes Video](https://drive.google.com/file/d/1Q0vKKx1Re6Ae_U4Kx0Z8n2j3PoNqkxvj/view)](https://drive.google.com/file/d/1QNCsR8wI76tcAUtMQJWXY_sTWhAtYLsO/view?usp=sharing)
+[![Thoughts Routes Video](assets\vid2 png.png)](https://drive.google.com/file/d/1QNCsR8wI76tcAUtMQJWXY_sTWhAtYLsO/view?usp=sharing)
 
 ### Reactions and Friends
 
-[![Reactions and Friends Routes Video](image link)](https://drive.google.com/file/d/1hJlqlqaRDVrqEZgvsIGLWxHREe0o9WCq/view?usp=sharing)
+[![Reactions and Friends Routes Video](assets\vid3 png.png)](https://drive.google.com/file/d/1hJlqlqaRDVrqEZgvsIGLWxHREe0o9WCq/view?usp=sharing)
 
 
 
